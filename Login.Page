@@ -1,0 +1,10 @@
+Scenario: Successful registration with valid details
+  Given the user is on the registration page
+  When the user enters "Rama" in the Name field
+  And enters "rama@email.com" in the Email field
+  And selects "2001-10-11" as the Date of Birth
+  And selects "Female" as the Gender
+  And uploads a valid profile photo "Rama.jpg"
+  And clicks the "Register" button
+  Then the account should be created
+  And the user should be redirected to the welcome page
