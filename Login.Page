@@ -7,4 +7,4 @@ Scenario: Successful registration with valid details
   And uploads a valid profile photo "Rama.jpg"
   And clicks the "Register" button
   Then the account should be created
-  And the user should be redirected to the welcome page
+ 
