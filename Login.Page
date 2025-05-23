@@ -8,4 +8,3 @@ Scenario: Successful registration with valid details
   And clicks the "Register" button
   Then the account should be created
  
-scenario: 
